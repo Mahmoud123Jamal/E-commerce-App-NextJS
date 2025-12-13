@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --bodyFont: #f5f7fa;
+  --blue: #2563eb;
+}
