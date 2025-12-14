@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Product } from "@/types/products";
 
 async function getData() {
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+  //   await new Promise((resolve) => setTimeout(resolve, 3000));
   //simulates loading data
   const res = await fetch("http://localhost:4000/products", {
     next: { revalidate: 0 },
