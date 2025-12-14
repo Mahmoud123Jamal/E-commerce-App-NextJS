@@ -13,10 +13,7 @@ const Products = dynamic(() => import("../components/Products"), {
 export default function Home() {
   return (
     <>
-      <div
-        className="relative h-screen bg-center bg-no-repeat bg-cover bg-fixed"
-        style={{ backgroundImage: "url(/images/bac.jpg)" }}
-      >
+      <div className="relative h-screen bg-center bg-no-repeat bg-cover bg-fixed bg-[url('/images/bac.jpg')]">
         <Header />
         <section className="absolute top-1/2 left-[10%] -translate-y-1/2 flex flex-col text-black text-2xl space-y-2 sm:text-xl">
           <p className="uppercase text-2xl sm:text-xl">Lifestyle collection</p>
