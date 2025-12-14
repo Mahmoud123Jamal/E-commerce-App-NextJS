@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import dynamic from "next/dynamic";
 
-const Products = dynamic(() => import("./Products"), {
+const Products = dynamic(() => import("../components/Products"), {
   ssr: true,
   loading: () => <Loading />,
 });
