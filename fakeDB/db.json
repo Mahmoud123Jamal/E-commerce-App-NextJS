@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productImg": "/images/1.png",
+      "title": "Black Short",
+      "description": "Comfortable black shorts made from lightweight, breathable fabric. Perfect for casual wear, workouts, or summer activities. Features an elastic waistband and side pockets for convenience.",
+      "price": 150
+    },
+    {
+      "id": "2",
+      "productImg": "/images/2.webp",
+      "title": "Men Travel Bag",
+      "description": "Durable and spacious travel bag designed for short trips or daily commutes. Made with high-quality materials, multiple compartments, and comfortable straps for easy carrying.",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "productImg": "/images/3.webp",
+      "title": "Sport Backpack",
+      "description": "Lightweight and stylish sport backpack suitable for gym, outdoor activities, or school. Includes multiple pockets, water bottle holder, and padded straps for comfort.",
+      "price": 50
+    },
+    {
+      "id": "4",
+      "productImg": "/images/4.webp",
+      "title": "Casual Men's Shoes",
+      "description": "Classic casual shoes for men, offering comfort and style. Perfect for everyday wear, made with durable material and cushioned soles for long-lasting comfort.",
+      "price": 300
+    },
+    {
+      "id": "5",
+      "productImg": "/images/5.webp",
+      "title": "Summer Baseball Cap",
+      "description": "Trendy baseball cap ideal for sunny days. Lightweight, adjustable, and made from breathable fabric to keep you cool and stylish.",
+      "price": 100
+    },
+    {
+      "id": "6",
+      "productImg": "/images/6.webp",
+      "title": "Apple Watch",
+      "description": "Smart Apple Watch with fitness tracking, notifications, and customizable watch faces. Perfect for keeping track of health and staying connected on the go.",
+      "price": 14.99
+    },
+    {
+      "id": "7",
+      "productImg": "/images/7.webp",
+      "title": "Trendy Sunglasses",
+      "description": "Fashionable sunglasses with UV protection. Lightweight, durable frame and stylish design suitable for outdoor activities or casual wear.",
+      "price": 100
+    },
+    {
+      "id": "8",
+      "productImg": "/images/8.png",
+      "title": "Men's Tank Top",
+      "description": "Comfortable tank top for men, made from soft, breathable cotton. Ideal for workouts, casual wear, or layering during hot weather.",
+      "price": 14.99
+    }
+  ]
+}
