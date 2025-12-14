@@ -4,14 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-
-interface Product {
-  id: string;
-  title: string;
-  price: number;
-  description: string;
-  productImg: string;
-}
+import { Product } from "@/types/products";
 
 async function getData(id: string): Promise<Product> {
   const res = await fetch(`http://localhost:4000/products/${id}`, {
