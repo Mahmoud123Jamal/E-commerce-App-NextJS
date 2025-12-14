@@ -5,15 +5,22 @@ import {
   faRightToBracket,
   faUserPlus,
 } from "@fortawesome/free-solid-svg-icons";
+
 import Link from "next/link";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between px-[10%] pt-5 max-[600px]:justify-center max-[600px]:px-0 bg-teal-500">
+    <header className="flex items-center justify-between px-[10%] pt-5 max-[600px]:justify-center max-[600px]:px-0">
       <Link href="/" className="flex items-center gap-1 max-[600px]:hidden">
-        <FontAwesomeIcon icon={faBagShopping} className="text-2xl mr-1" />
+        <span>
+          <FontAwesomeIcon
+            icon={faBagShopping}
+            className="text-3xl mr-1 w-10 h-10 text-blue-700"
+          />
+        </span>
+
         <div>
-          <span className="font-bold">AWU</span>
+          <span className="font-bold">MJG</span>
           <p className="tracking-wide text-sm">Shopping</p>
         </div>
       </Link>
