@@ -30,7 +30,7 @@ const Products = async () => {
           title={item.title}
           className="bg-white rounded-lg shadow-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300"
         >
-          <Link href={`/product-details/${item.id}`}>
+          <Link href={`/product/${item.id}`}>
             <Image
               src={item.productImg}
               alt={item.title}
